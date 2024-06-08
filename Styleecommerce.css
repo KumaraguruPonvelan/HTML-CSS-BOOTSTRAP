@@ -1,0 +1,32 @@
+
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.Categories{
+    max-width: 1200px;
+    margin: 40px auto;
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.category-item{
+    flex-grow: 1;
+    min-width: 33%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+    
+@media(max-width: 100px){
+    .category-item{
+        min-width: 50%;
+    }
+}
